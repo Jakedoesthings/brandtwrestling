@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brandt Wrestling</title>
+    <meta name="description" content="Brandt Wrestling: training, technique, and toughness. Youth and high school wrestling club." />
+    <meta name="theme-color" content="#0b0b0b" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Clean, modern font. Swap anytime. -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Top bar -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Brandt Wrestling home">
+          <!-- Optional logo: put assets/logo.svg in place and uncomment image -->
+          <!-- <img src="assets/logo.svg" alt="" class="logo" /> -->
+          <span class="brand-text">
+            <span class="brand-name">Brandt Wrestling</span>
+            <span class="brand-tag">Train. Compete. Improve.</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#programs">Programs</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#faq">FAQ</a>
+          <a class="btn btn-small" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Wrestling club</p>
+            <h1>Brandt Wrestling</h1>
+            <p class="lead">
+              A simple mission: build fundamentals, sharpen technique, and get tougher every week.
+              Youth and high school training with a focus on accountability and growth.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn" href="#contact">Join / Get Info</a>
+              <a class="btn btn-ghost" href="#programs">View Programs</a>
+            </div>
+
+            <div class="hero-badges" aria-label="Quick highlights">
+              <div class="badge"><span class="badge-title">Technique</span><span class="badge-sub">Position, pressure, pace</span></div>
+              <div class="badge"><span class="badge-title">Culture</span><span class="badge-sub">Hard work, no drama</span></div>
+              <div class="badge"><span class="badge-title">Compete</span><span class="badge-sub">Freestyle / Folkstyle</span></div>
+            </div>
+          </div>
+
+          <div class="hero-card" role="region" aria-label="Next practice">
+            <div class="card">
+              <h2 class="card-title">Next Practice</h2>
+              <p class="card-line"><strong id="nextPracticeDay">TBD</strong> <span id="nextPracticeTime">TBD</span></p>
+              <p class="muted" id="nextPracticeNote">Update this schedule in the Schedule section below.</p>
+              <div class="card-actions">
+                <a class="btn btn-small" href="#schedule">See full schedule</a>
+                <a class="btn btn-small btn-ghost" href="#contact">Ask a question</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Optional hero image: put assets/hero.jpg in place -->
+        <!-- <img class="hero-bg" src="assets/hero.jpg" alt="" loading="lazy" /> -->
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>About</h2>
+            <p class="muted">
+              Brandt Wrestling is built for athletes who want to learn the right way, train with purpose,
+              and keep leveling up.
+            </p>
+          </div>
+
+          <div class="grid-3">
+            <div class="panel">
+              <h3>Coaching focus</h3>
+              <p>
+                Fundamentals first. We build from stance, motion, and defense into controlled offense and chain wrestling.
+              </p>
+            </div>
+            <div class="panel">
+              <h3>Room standards</h3>
+              <p>
+                Show up, work hard, be a good teammate. No ego. No excuses. Bring energy and respect.
+              </p>
+            </div>
+            <div class="panel">
+              <h3>Training style</h3>
+              <p>
+                High reps, smart drilling, live goes with intention. We compete to improve, not to posture.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Programs -->
+      <section id="programs" class="section section-alt">
+        <div class="container">
+          <div class="section-head">
+            <h2>Programs</h2>
+            <p class="muted">Keep this simple. Add or remove cards anytime.</p>
+          </div>
+
+          <div class="grid-3">
+            <div class="panel">
+              <h3>Youth Fundamentals</h3>
+              <p class="muted">Grades K–5</p>
+              <ul class="list">
+                <li>Stance, motion, balance</li>
+                <li>Basic takedowns + defense</li>
+                <li>Fun, structured environment</li>
+              </ul>
+            </div>
+
+            <div class="panel">
+              <h3>Middle School</h3>
+              <p class="muted">Grades 6–8</p>
+              <ul class="list">
+                <li>Setup-to-finish sequences</li>
+                <li>Top/bottom fundamentals</li>
+                <li>Strength + conditioning basics</li>
+              </ul>
+            </div>
+
+            <div class="panel">
+              <h3>High School / Offseason</h3>
+              <p class="muted">Grades 9–12</p>
+              <ul class="list">
+                <li>Chain wrestling + pace</li>
+                <li>Situational live</li>
+                <li>Freestyle + folkstyle options</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="cta-row">
+            <div class="cta">
+              <h3>Want private lessons?</h3>
+              <p class="muted">Technique breakdowns, match strategy, and focused drilling.</p>
+            </div>
+            <a class="btn" href="#contact">Request info</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Schedule -->
+      <section id="schedule" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Schedule</h2>
+            <p class="muted">Edit the times below. The “Next Practice” card updates automatically.</p>
+          </div>
+
+          <div class="schedule">
+            <!-- Add more rows as needed -->
+            <div class="schedule-row" data-day="Monday" data-time="6:00–7:15 PM" data-note="Youth + MS">
+              <div class="schedule-day">Mon</div>
+              <div class="schedule-info">
+                <div class="schedule-main">Youth + Middle School</div>
+                <div class="schedule-sub">6:00–7:15 PM</div>
+              </div>
+              <div class="schedule-meta muted">Technique + live</div>
+            </div>
+
+            <div class="schedule-row" data-day="Tuesday" data-time="6:30–8:00 PM" data-note="High School">
+              <div class="schedule-day">Tue</div>
+              <div class="schedule-info">
+                <div class="schedule-main">High School</div>
+                <div class="schedule-sub">6:30–8:00 PM</div>
+              </div>
+              <div class="schedule-meta muted">Chain + pace</div>
+            </div>
+
+            <div class="schedule-row" data-day="Thursday" data-time="6:30–8:00 PM" data-note="All (split groups)">
+              <div class="schedule-day">Thu</div>
+              <div class="schedule-info">
+                <div class="schedule-main">All Groups (Split)</div>
+                <div class="schedule-sub">6:30–8:00 PM</div>
+              </div>
+              <div class="schedule-meta muted">Situational live</div>
+            </div>
+
+            <div class="schedule-row" data-day="Sunday" data-time="3:00–4:30 PM" data-note="Open room">
+              <div class="schedule-day">Sun</div>
+              <div class="schedule-info">
+                <div class="schedule-main">Open Room</div>
+                <div class="schedule-sub">3:00–4:30 PM</div>
+              </div>
+              <div class="schedule-meta muted">Optional</div>
+            </div>
+          </div>
+
+          <div class="note">
+            <strong>Location:</strong> <span class="muted">Add your facility address here.</span><br />
+            <strong>What to bring:</strong> <span class="muted">Wrestling shoes, water, and a good attitude.</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="section section-alt">
+        <div class="container">
+          <div class="section-head">
+            <h2>FAQ</h2>
+            <p class="muted">Short and clear so parents can scan it fast.</p>
+          </div>
+
+          <div class="accordion" data-accordion>
+            <button class="acc-btn" aria-expanded="false">
+              Who can join?
+              <span class="acc-icon">+</span>
+            </button>
+            <div class="acc-panel">
+              <p>Any athlete who wants to learn and work. Youth through high school. Beginners welcome.</p>
+            </div>
+
+            <button class="acc-btn" aria-expanded="false">
+              Do we compete in tournaments?
+              <span class="acc-icon">+</span>
+            </button>
+            <div class="acc-panel">
+              <p>Optional. We’ll share recommended events and help with registration and prep.</p>
+            </div>
+
+            <button class="acc-btn" aria-expanded="false">
+              What does it cost?
+              <span class="acc-icon">+</span>
+            </button>
+            <div class="acc-panel">
+              <p>Add your pricing here (monthly, drop-in, or seasonal). Keep it simple and direct.</p>
+            </div>
+
+            <button class="acc-btn" aria-expanded="false">
+              How do I get started?
+              <span class="acc-icon">+</span>
+            </button>
+            <div class="acc-panel">
+              <p>Send a message below. We’ll confirm the right group and the next practice to attend.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Contact</h2>
+            <p class="muted">Send a message and we’ll get you the details.</p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="panel">
+              <h3>Quick info</h3>
+              <p class="muted">
+                <strong>Email:</strong> <a href="mailto:info@brandt-wrestling.com">info@brandt-wrestling.com</a><br />
+                <strong>Instagram:</strong> <a href="#" aria-label="Instagram link">Add your handle</a><br />
+                <strong>Location:</strong> Add city/state
+              </p>
+
+              <div class="divider"></div>
+
+              <p class="muted">
+                Want it even cleaner? Remove the form and just use a mailto button.
+              </p>
+
+              <a class="btn" href="mailto:info@brandt-wrestling.com?subject=Brandt%20Wrestling%20Info">Email us</a>
+            </div>
+
+            <form class="panel form" id="contactForm">
+              <label>
+                Name
+                <input name="name" type="text" autocomplete="name" required />
+              </label>
+
+              <label>
+                Email
+                <input name="email" type="email" autocomplete="email" required />
+              </label>
+
+              <label>
+                Athlete age / grade (optional)
+                <input name="grade" type="text" />
+              </label>
+
+              <label>
+                Message
+                <textarea name="message" rows="5" required></textarea>
+              </label>
+
+              <button class="btn" type="submit">Send message</button>
+              <p class="muted tiny" id="formNote">
+                This form uses your email app (no server). For a real form, host on Netlify/Forms or similar.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <p class="muted">© <span id="year"></span> Brandt Wrestling. All rights reserved.</p>
+          <a class="muted" href="#top">Back to top ↑</a>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
